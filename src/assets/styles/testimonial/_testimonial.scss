@@ -1,0 +1,61 @@
+@import "../global/theme-variable";
+
+.testimonial{
+    .slick-slider{
+
+        .slick-dots{
+            text-align: left;
+            bottom: -50px;
+
+            li{
+                margin: 0;
+                &.slick-active{
+                    button{
+                        // width: 20px;
+                        // height: 10px;
+                        position: relative;
+                        &::before{
+                            position: absolute;
+                            top: 50%;
+                            transform: translateY(-50%);
+                            content: "";
+                            height: 10px;
+                            display: inline-block;
+                            background-color: $color-3;
+                            width: 20px;
+                            border-radius: 8px;
+                        }
+                    }
+                }
+            }
+
+            // li{
+            //     margin: 0;
+            //     width: 20px;
+            //     height: 10px;
+
+            //     &.slick-active{
+            //         button{
+            //             width: 20px;
+
+            //             &::before{
+            //                 width: 20px;
+            //                 height: 10px;
+            //                 color: $color-3;
+            //             }
+            //         }
+            //     }
+            //     button{
+            //         padding: 0;
+            //         width: 10px;
+            //         height: 20px;
+
+            //         &::before{
+            //             width: 10px;
+            //             height: 20px;
+            //         }
+            //     }
+            // }
+        }
+    }
+}

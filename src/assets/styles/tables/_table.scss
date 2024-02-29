@@ -1,0 +1,30 @@
+@import "../global/theme-variable";
+.bike-table{
+    td,th{
+        &:first-child{
+            background-color: $color-2;
+        }
+    }
+}
+
+.premium-table{
+    thead{
+        &:first-child{
+            th{
+                background-color: $color-2;
+            }
+        }
+
+        th{
+            &:nth-child(2n){
+                background-color: $color-2;
+            }
+        }
+    }
+
+    td{
+        &:nth-child(2n){
+            background-color: $color-2;
+        }
+    }
+}

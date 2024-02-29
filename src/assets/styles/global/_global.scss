@@ -33,6 +33,18 @@ h1{
     color: $title-color;
 }
 
+table,th,td{
+    border: 1px solid $color-5 !important;
+}
+
+table{
+    // td,th{
+    //     &:first-child{
+    //         background-color: red;
+    //     }
+    // }
+}
+
 .bg-lightblue{
     background-color: $color-2;
 }
@@ -59,6 +71,10 @@ h1{
 .inner-wrap{
     padding-top: $inner-wrap-spacing-top;
     padding-bottom: $inner-wrap-spacing-bottom;
+}
+
+.content-wrap{
+    margin-top: 50px;
 }
 
 @media (max-width: 991px){
