@@ -3,11 +3,7 @@ import { Container, Nav, NavDropdown, Navbar, Image } from "react-bootstrap";
 
 import Logo from "@images/policy-logo.png";
 import DropDownImage from "@images/dropdown-arrow.png";
-
 import "@styles/navbar/_navbar.scss";
-
-import { NavbarLogo } from "@components/navbar/NavbarLogo";
-import { NavbarItem } from "@components/navbar/NavbarItem";
 import Sidebar from "@components/sidebar/Sidebar";
 
 const Header = () => {

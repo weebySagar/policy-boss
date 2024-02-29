@@ -21,7 +21,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
   margin: 0;
   padding: 0;
 }
@@ -30,6 +31,10 @@ h1{
     font-size: $h1-size;
     font-weight: $h1-font-weight;
     color: $title-color;
+}
+
+.bg-lightblue{
+    background-color: $color-2;
 }
 
 .button-primary {
@@ -44,6 +49,7 @@ h1{
     box-shadow: 10px 10px 40px rgba(26, 129, 255, 0.3);
     text-align: center;
     transition: 0.4s ease-in-out;
+    margin-top: 20px;
 
     &:hover{
         background-color: $btn-primary-bg-color-hover;

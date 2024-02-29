@@ -1,0 +1,44 @@
+@import "../global/theme-variable";
+.hero-banner{
+    .hero-title{
+        h1{
+            font-family: 'Jumpers';
+
+            span{
+                background-color: $color-3;
+                color: $color-1;
+                display: inline-block;
+            }
+        }
+    }
+
+    .hero-image{
+        margin-top: 20px;
+        img{
+            height: 400px;
+        }
+    }
+
+    .terms-condition{
+        p{
+            font-size: 14px;
+        }
+        h5{
+            span{
+                color: $color-3;
+            }
+        }
+    }
+
+   
+}
+
+@media (max-width:1200px){
+    .hero-banner{
+        .hero-image{
+            img{
+                height: auto;
+            }
+        }
+    }
+}

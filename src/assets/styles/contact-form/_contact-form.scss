@@ -1,0 +1,54 @@
+@import "../global/theme-variable";
+
+.form-container{
+    padding: 30px;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    background-color: $color-1;
+    width: 75%;
+    height: max-content;
+
+    h3{
+        color: $color-3;
+        font-weight: 700;
+        margin-bottom: 25px;
+    }
+
+    form{
+        .group-input{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        input{
+            width: 100%;
+            border: 2px solid rgba(0, 0, 0, 0.1);
+            padding: 0 20px;
+            border-radius: 10px;
+            min-height: 60px;
+            outline: none;
+
+            &:active,&:focus{
+                border: 2px solid $color-3;
+            }
+
+            &[type="checkbox"]{
+                min-height: 24px;
+                width: auto;
+            }
+        }
+        p{
+            font-size: 14px;
+        }
+
+        .checkbox-group{
+         gap: 10px;   
+        }
+    }
+}
+
+@media (max-width:1200px){
+    .form-container{
+        width: auto;
+    }
+}
