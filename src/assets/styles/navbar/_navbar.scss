@@ -1,0 +1,75 @@
+@import "../global/theme-variable";
+
+header{
+
+    .navbar-expand-lg{
+
+        .navbar-nav{
+            flex-direction: row;
+        .nav-link{
+            padding: 20px;
+            transition: 0.3s ease-in-out;
+            font-weight: 500;
+            &::after{
+                background-image: url("../../images/dropdown-arrow.png");
+                display: inline-block;
+                border: 0 !important;
+                width: 10px;
+                height: 6px;
+                background-repeat: no-repeat;
+                background-size: contain;
+                margin-left: 5px;
+                transition: 0.3s ease-in-out
+            }
+
+            &:hover{
+
+                &::after{
+                    transform: rotate(180deg);
+                    filter: invert(34%) sepia(40%) saturate(1132%) hue-rotate(191deg) brightness(90%) contrast(110%);
+                }
+            }
+        }
+    }
+        .dropdown-menu{
+            border: none ;
+            transition: all .25s ease-out;
+            box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            min-width: 220px;
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+            position: absolute;
+
+            a{
+                padding: 10px;
+
+                &:hover{
+                    background-color: $color-3;
+                    color: $color-1 !important;
+                }
+            }
+        }
+
+        .navbar-toggler{
+            border: none;
+            color: #000;
+            box-shadow: none;
+        }
+    }
+}
+
+@media (max-width:1299px){
+    header{
+        .navbar-expand-lg{
+            .navbar-nav{
+                .nav-link{
+                    font-size: 13px ;
+                    padding: 20px 10px ;
+                }
+            }
+            
+        }
+    }
+}

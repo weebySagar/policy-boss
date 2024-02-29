@@ -1,0 +1,68 @@
+@import "./theme-variable";
+
+body{
+    background: $body-bg-color;
+    color: $font-color-base;
+    font-family:$font-family-base;
+    font-weight: $font-weight-base;
+}
+
+a{
+    font-size: 15px !important;
+    color: $color-6 !important;
+
+    &:hover{
+        color: $color-3 !important;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+    font-size: $h1-size;
+    font-weight: $h1-font-weight;
+    color: $title-color;
+}
+
+.button-primary {
+    background-color: $btn-primary-bg-color;
+    color: $btn-primary-text-color;
+    border-radius: $btn-primary-border-radius;
+    outline: none;
+    border: none;
+    font-size: $font-size-base;
+    padding: 17px 20px;
+    width: 100%;
+    box-shadow: 10px 10px 40px rgba(26, 129, 255, 0.3);
+    text-align: center;
+    transition: 0.4s ease-in-out;
+
+    &:hover{
+        background-color: $btn-primary-bg-color-hover;
+    }
+}
+
+.inner-wrap{
+    padding-top: $inner-wrap-spacing-top;
+    padding-bottom: $inner-wrap-spacing-bottom;
+}
+
+@media (max-width: 991px){
+
+    .inner-wrap{
+        padding-top: $inner-wrap-spacing-top-sm;
+        padding-bottom: $inner-wrap-spacing-bottom-sm;
+    }
+
+    h1{
+        font-size: $h1-size-sm;
+    }
+}

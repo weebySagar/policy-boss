@@ -1,0 +1,56 @@
+@import '../fonts/fonts';
+
+// base color
+$color-1 : #FFFFFF; // white
+$color-2 : #EEF6FF; // light  blue
+$color-3 : #1A81FF; // blue
+$color-4 : #001D40; // dark blue
+$color-5 : #444; // gray
+$color-6 : #222; // black
+
+// background color of body
+$body-bg-color : $color-1;
+
+
+// global text color
+$font-color-base : $color-5;
+
+//global fonts
+$font-family-base : 'Helvetica';
+$font-weight-base : 400;
+$font-size-base : 18px;
+
+//mobile
+$fonts-size-text-sm: 16px !default;
+
+// title size desktop
+$h1-size : 36px;
+
+// title size small screen (mobile)
+$h1-size-sm: 28px !default;
+
+// title font-color
+$title-color: $color-6;
+
+// title font-weight
+$h1-font-weight: 700;
+
+//hero banner
+$hero-banner-font-family : 'Jumper';
+
+
+// button style primary
+$btn-primary-bg-color : $color-3;
+$btn-primary-text-color : $color-1;
+$btn-primary-border-radius : 16px;
+// hover
+$btn-primary-bg-color-hover : #003ACC;
+
+
+// content structure - desktop
+$inner-wrap-spacing-top : 80px;
+$inner-wrap-spacing-bottom : 80px;
+
+// content structure - mobile
+$inner-wrap-spacing-top-sm : 60px;
+$inner-wrap-spacing-bottom-sm : 60px;
