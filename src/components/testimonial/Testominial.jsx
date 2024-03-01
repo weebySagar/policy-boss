@@ -30,7 +30,7 @@ const Testimonial = () => {
 
                 <div className="content-wrapper">
                     <Row className='align-items-center'>
-                        <Col lg={6}>
+                        <Col lg={6} className='order-2 order-lg-1'>
                             <Slider {...settings}>
                                 {
                                     Array.from({length:5}).map((_,index)=><div key={index} className='text-start'>
@@ -44,8 +44,8 @@ const Testimonial = () => {
                                 }
                             </Slider>
                         </Col>
-                        <Col lg={6}>
-                            <Image src={TestimonialImg}/>
+                        <Col lg={6} className='order-1 order-lg-2'>
+                            <Image src={TestimonialImg} className='img-fluid'/>
                         </Col>
                     </Row>
                 </div>

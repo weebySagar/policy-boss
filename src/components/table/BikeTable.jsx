@@ -4,6 +4,8 @@ import { Col, Image, Row, Table } from "react-bootstrap";
 import RightImg from "@images/checked.svg";
 import WrongImg from "@images/wrong.svg";
 import "@styles/tables/_table.scss";
+
+
 const BikeTable = () => {
   const tableHeading = ["Coverage", "Third Party", "Comprehensive"];
   const tableData = [

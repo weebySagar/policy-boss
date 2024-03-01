@@ -11,8 +11,7 @@
                 margin: 0;
                 &.slick-active{
                     button{
-                        // width: 20px;
-                        // height: 10px;
+                       
                         position: relative;
                         &::before{
                             position: absolute;
@@ -29,33 +28,14 @@
                 }
             }
 
-            // li{
-            //     margin: 0;
-            //     width: 20px;
-            //     height: 10px;
+        }
+    }
+}
 
-            //     &.slick-active{
-            //         button{
-            //             width: 20px;
-
-            //             &::before{
-            //                 width: 20px;
-            //                 height: 10px;
-            //                 color: $color-3;
-            //             }
-            //         }
-            //     }
-            //     button{
-            //         padding: 0;
-            //         width: 10px;
-            //         height: 20px;
-
-            //         &::before{
-            //             width: 10px;
-            //             height: 20px;
-            //         }
-            //     }
-            // }
+@media (max-width:991px){
+    .testimonial{
+        .slick-slider{
+            margin-bottom: 50px;
         }
     }
 }

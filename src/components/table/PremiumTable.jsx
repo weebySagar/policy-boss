@@ -31,7 +31,7 @@ const PremiumTable = () => {
     },
   ];
   return (
-    <Table className="premium-table">
+    <Table className="premium-table" responsive>
       <thead>
         <tr>
           <th colSpan={2}>ICE Vehicles</th>

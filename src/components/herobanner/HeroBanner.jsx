@@ -20,7 +20,7 @@ const HeroBanner = () => {
                 </h1>
               </div>
               <div className="hero-image">
-                <Image src={HeroImg} />
+                <Image src={HeroImg} className="img-fluid"/>
               </div>
               <div className="terms-condition text-lg-start">
                 <h5>
