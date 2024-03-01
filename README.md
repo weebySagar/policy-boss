@@ -1,8 +1,10 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Policy Boss
 
-Currently, two official plugins are available:
+This is the UI project for Policy Boss
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To run this project on local you have follow these steps :
+
+1) First you need to install the ndoe modules by entering the command "npm i", this will install all the necessary package .
+
+2)  Once all the packages are installed you can run the project by using the command "npm run dev" , this will start the project on a local server
